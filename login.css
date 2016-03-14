@@ -1,0 +1,17 @@
+div {
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    background-color: #333;
+}
+
+input {
+width: 200px;
+}
+
+button {
+    height: 22px;
+    margin: 5px;
+    background-color: #a9a9a9;
+    border: none;
+}

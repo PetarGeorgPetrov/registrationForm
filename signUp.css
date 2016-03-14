@@ -1,0 +1,48 @@
+#title {
+    margin-left: 140px;
+    font-size: 24px;
+}
+ul {
+    list-style: none;
+}
+li{
+    padding: 4px;
+}
+
+label {
+    font-size: 13px;
+}
+
+input   {
+    height: 25px;
+    width: 300px;
+}
+
+button {
+    width: 306px;
+    height: 30px;
+    margin-left: 43px;
+    background-color: #efcf14;
+    border: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+
+#registration {
+    margin: 10px;
+    padding: 5px;
+    height: 430px;
+    width: 400px;
+    background-color: #eee;
+}
+
+#agreement {
+    text-align: center;
+    font-size: 11px;
+    color: #66696a;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
