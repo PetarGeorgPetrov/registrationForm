@@ -2,7 +2,7 @@
 <?php
 include 'header.php';
 include 'footer.php';
-include 'functions.php';
+
 ?>
 <div id="registration">
        <span>
@@ -59,13 +59,14 @@ if($_POST) {
 email =' . " . mysqli_real_escape_string($db,$email) . " );
 
     $q2 = mysqli_query($db, 'SELECT * FROM users WHERE
-password =' .  $email_esc );
+email =  $email_esc' );
 }
 if(mysqli_num_rows($q) > 0) {
     echo 'This email is already exist';
 
 } else {
-    mysqli_query($db, 'INSERT INTO users(email) VALUES);
+    mysqli_query( $db, 'INSERT INTO users(email) VALUES($email_esc)');
+
 }
 ?>
 
